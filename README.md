@@ -19,7 +19,7 @@
 1. Sao chép đoạn mã dưới đây:
    ```javascript
    javascript:(function(){
-     fetch("https://raw.githubusercontent.com/lowji194/Shopee-statistics/refs/heads/main/thong-ke-chi-tieu-shopee.js")
+     fetch("https://raw.githubusercontent.com/buithile282/Shopee-th-ng-k--t-ng-ti-n---mua/refs/heads/main/thong-ke-chi-tieu-shopee.js")
      .then(r => r.text())
      .then(eval)
      .catch(e => console.error("Lỗi:", e));
